@@ -1,0 +1,98 @@
+.navbar{
+  position:fixed;
+  height: 90px;
+  width:100%;
+  background-color: rgb(0, 0, 0, 0.3);
+  z-index:10;
+  border-radius:0;
+  border-color:transparent;
+}
+
+.carousel-inner {
+  height: 900px;
+}
+
+li.nav-item {
+  padding-left: 20px;
+}
+
+.carousel-caption {
+  left: 0;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-bottom: 420px;
+}
+
+.carousel-caption h1 {
+  
+  font-size: 5rem;
+}
+
+
+button.btn-warning {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 0px;
+}
+
+.pizzas {
+  text-align: center;
+}
+
+.dropdown-divider {
+  height: 3px;
+  background-color: yellow;
+  width: 100px;
+  border-top: none;
+  display: -webkit-inline-box;
+}
+
+.pizza {
+  background-image: url(../images/pizza-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.pizza span {
+  position: absolute;
+  bottom: 0;
+}
+
+
+.salades {
+  text-align: center;
+}
+
+.salade {
+  background-image: url(../images/salade-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.salade span {
+  position: absolute;
+  bottom: 0;
+}
+
+footer {
+  background-color: rgb(15, 15, 15);
+  height: 800px;
+  text-align: center;
+  color: white;
+}
+
+.map {
+  top: -100px;
+}
+
+.form {
+  display: block;
+  width: 100%;
+}
